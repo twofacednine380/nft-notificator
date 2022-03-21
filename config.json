@@ -1,0 +1,13 @@
+{
+    "Open Sea": {
+        "Api Key": "YOUR_API_KEY",
+        "Collection Slug": "COLLECTION_SLUG",
+        "Asset Contract Address": "ASSET_CONTRACT_ADDRESS",
+        "Test": true
+    },
+    "Telegram":{
+        "Notification": false,
+        "Token": "TELEGRAM_TOKEN",
+        "Chat ID": "TELEGRAM_CHAT_ID"
+    }
+}
