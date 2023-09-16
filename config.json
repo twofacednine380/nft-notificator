@@ -1,13 +1,13 @@
 {
     "Open Sea": {
-        "Api Key": "YOUR_API_KEY",
+        "Api Key": "c3997e4f8b35473788c41adf4eece43b",
         "Collection Slug": "COLLECTION_SLUG",
         "Asset Contract Address": "ASSET_CONTRACT_ADDRESS",
-        "Test": true
+        "Test": false
     },
     "Telegram":{
-        "Notification": false,
-        "Token": "TELEGRAM_TOKEN",
-        "Chat ID": "TELEGRAM_CHAT_ID"
+        "Notification": true,
+        "Token": "5208399004:AAFMJ4od537eSpSAiPWDju39cMmPRaRbpbk",
+        "Chat ID": "-751256026"
     }
 }

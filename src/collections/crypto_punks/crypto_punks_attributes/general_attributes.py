@@ -2,7 +2,7 @@ from src.collections import Trait
 
 class PunkType:
 
-    name_type = "Punk Type"
+    name_type = "type"
     
     alien = Trait("Alien", 1111.11)
     ape = Trait("Ape", 416.67)
@@ -20,12 +20,12 @@ class PunkType:
 
 class SkinTone: 
 
-    name_type = "Skin Tone"
+    name_type = "skin tone"
 
     albino = Trait("Albino", 0)
     dark = Trait("Dark", 0)
     light = Trait("Light", 0)
-    mid = Trait("Mid", 0)
+    mid = Trait("Medium", 0)
 
     objects = [ 
         albino,
@@ -36,7 +36,7 @@ class SkinTone:
 
 class AttributeCount:
 
-    name_type = "Attribute Count"
+    name_type = "count"
 
     zero = Trait("0", 1250)
     one = Trait("1", 30.03)
@@ -118,6 +118,10 @@ class FullType:
         ),
         5.39
     )
+    alien = Trait("Alien", 1111.11)
+    ape = Trait("Ape", 416.67)
+    zombie = Trait("Zombie", 113.64)
+
 
     objects = [
         female_albino,
@@ -127,5 +131,8 @@ class FullType:
         female_light,
         male_light,
         female_mid,
-        male_mid
+        male_mid,
+        alien, 
+        ape, 
+        zombie
     ]

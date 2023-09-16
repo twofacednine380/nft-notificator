@@ -107,7 +107,7 @@ class Eyes:
     small_shades = Trait("Small Shades", 26.46)
     clown_eyes_green = Trait("Clown Eyes Green", 26.18)
     clown_eyes_blue = Trait("Clown Eyes Blue", 26.04)
-    eye_patch = Trait("Eyes Patch", 21.69)
+    eye_patch = Trait("Eye Patch", 21.69)
     classic_shades = Trait("Classic Shades", 19.92)
     regular_shades = Trait("Regular Shades", 18.98)
     big_shades = Trait("Big Shades", 18.69)
@@ -177,7 +177,7 @@ class NeckAccessory:
     choker = Trait("Choker", 208.33)
     silver_chain = Trait("Silver Chain", 64.10)
     gold_chain = Trait("Gold Chain", 59.17)
-    none = Trait(None, 1.05)
+    none = Trait(None, 1.04)
 
     objects = [
         choker, 
