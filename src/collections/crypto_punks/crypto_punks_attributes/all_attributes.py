@@ -1,4 +1,3 @@
-from matplotlib.pyplot import hot
 from src.collections import Trait
 
 class Hair:
